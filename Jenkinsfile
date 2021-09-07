@@ -15,7 +15,7 @@ pipeline {
             steps{  
                 timeout(time:5, unit:"MINUTES"){   
                     script{ 
-                        mytools.PrintMes("获取代码")
+                        mytools.PrintMes("this is my lib", "green")
                     }
                 }
             }
